@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source files: always text
+*.v     text
+*.sv    text
+*.tcl   text
+*.hex   text
+*.s     text
+*.py    text
+*.md    text
+*.wcfg  text
+
+# Binary files: never change line endings
+*.pdf   binary
+*.pptx  binary
+*.png   binary
+*.jpg   binary
+
+# Show the HDL as Verilog / SystemVerilog in the GitHub language bar
+*.v     linguist-language=Verilog
+*.sv    linguist-language=SystemVerilog

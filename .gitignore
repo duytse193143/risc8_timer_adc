@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------
+# Vivado project files (generated automatically, NOT uploaded)
+# Re-create the project with:  create_project.tcl
+# ---------------------------------------------------------------
+vivado/
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.srcs/
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.backup.*
+webtalk*
+
+# ---------------------------------------------------------------
+# Simulation outputs
+# ---------------------------------------------------------------
+*.vcd
+*.vvp
+dump.txt
+
+# ---------------------------------------------------------------
+# Python / OS / editors
+# ---------------------------------------------------------------
+__pycache__/
+*.pyc
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*
+.vscode/
